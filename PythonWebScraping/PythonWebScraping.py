@@ -21,7 +21,14 @@ def parseContent():
     content = re.sub("\xa0","", content, 0).strip()
 
     result = {"key_num": key_num, "catetory": category, "title": title, "author": author, "content": content}
-    yield result
+    return result
+
+
+#while(True):
+#    result = parseContent()
+#    print(result)
+#    while(result["title"] == parseContent()["title"]):
+#        continue
 
 while(True):
     print(parseContent())
