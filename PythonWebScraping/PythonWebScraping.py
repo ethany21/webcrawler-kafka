@@ -24,11 +24,5 @@ def parseContent():
     yield result
 
 
-#while(True):
-#    result = parseContent()
-#    print(result)
-#    while(result["title"] == parseContent()["title"]):
-#        continue
-
 while(True):
     print(parseContent())
