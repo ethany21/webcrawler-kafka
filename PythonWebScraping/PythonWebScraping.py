@@ -23,6 +23,5 @@ def parseContent():
     result = {"key_num": key_num, "catetory": category, "title": title, "author": author, "content": content}
     yield result
 
-
 while(True):
     print(parseContent())
